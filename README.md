@@ -44,6 +44,7 @@ Note: you will also need to get the messages package, [chisel_msgs](https://gith
 * catkin (`ros-hydro` or `ros-indigo` or higher)
 * [PCL 1.8](http://pointclouds.org/) compiled with stdC++11 enabled.
 * ROS OpenCV [cv_bridge](http://wiki.ros.org/cv_bridge)
+* binutils-dev
 
 ### A note on PCL
 Unfortunately, PCL 1.7x (the standard PCL included in current versions of ROS) doesn't work with C++11. This project makes heavy use of C++11, so in order to use Chisel, you will have to download and install PCL 1.8 from source, and compile it with C++11 enabled.

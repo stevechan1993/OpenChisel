@@ -114,6 +114,7 @@ Once built, the `chisel_ros` server can be launched by using a launch file. Ther
 Then, launch the server using `roslaunch chisel_ros <your_launchfile>.launch`. You should see an output saying that `open_chisel` received depth images. Now, you can visualize the results in `rviz`. 
 
 Type `rosrun rviz rviz` to open up the RVIZ visualizer. Then, add a `Marker` topic with the name `/Chisel/full_mesh`. This topic displays the mesh reconstructed by Chisel.
+（Notice:Add a `Marker` by topic,then change the global option's fixed frame to world）
 
 ### Services
 `chisel_ros` provides several ROS services you can use to interface with the reconstruction in real-time. These are:

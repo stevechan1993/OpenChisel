@@ -43,8 +43,8 @@
         <param name="Odometry_topic" value="/vins_estimator/cur_pose"/> -->
 
         <param name="Depthimage_topic" value="/open_quadtree_mapping/depth"/>
-        <param name="Colorimage_topic" value="/camera/color/image_raw"/>
-        <param name="Odometry_topic" value="/vins_estimator/camera_pose"/>
+        <param name="Colorimage_topic" value="/image_converter/output_image"/>
+        <param name="Odometry_topic" value="/odom2pose/PoseStamped"/>
 
     </node>
 </launch>

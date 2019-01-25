@@ -38,10 +38,6 @@
         <!-- <param name="degree_step" value="4"/> -->
 
         <!-- Name of the topic -->
-<!--    <param name="Depthimage_topic" value="/remode/depth"/>
-        <param name="Colorimage_topic" value="/remode/reference"/>
-        <param name="Odometry_topic" value="/vins_estimator/cur_pose"/> -->
-
         <param name="Depthimage_topic" value="/open_quadtree_mapping/depth"/>
         <param name="Colorimage_topic" value="/image_converter/output_image"/>
         <param name="Odometry_topic" value="/odom2pose/PoseStamped"/>

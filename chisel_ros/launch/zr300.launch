@@ -25,15 +25,15 @@
         <param name="fusion_mode" value="DepthImage"/>   
 
         <!-- camera type, Pinhole or Fisheye-->
-        <param name="camera_type" value= "Pinhole"/>
+        <param name="camera_type" value="Pinhole"/>
         <!-- basic information for images-->
         <param name="image_width" value="752"/>
         <param name="image_height" value="480"/>
         <!-- Pinhole Parameter, if not pinhole can be ignored-->
-        <param name="fx" value="306.178771" />
-        <param name="cx" value="306.929046" />
-        <param name="fy" value="158.523696" />
-        <param name="cy" value="122.747596" />
+        <param name="fx" value="306.178771"/>
+        <param name="cx" value="306.929046"/>
+        <param name="fy" value="158.523696"/>
+        <param name="cy" value="122.747596"/>
         <!-- Fisheye Parameter, steps a degree, if not can be ignored-->
         <!-- <param name="degree_step" value="4"/> -->
 
@@ -41,6 +41,5 @@
         <param name="Depthimage_topic" value="/open_quadtree_mapping/depth"/>
         <param name="Colorimage_topic" value="/image_converter/output_image"/>
         <param name="Odometry_topic" value="/odom2pose/PoseStamped"/>
-
     </node>
 </launch>

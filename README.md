@@ -55,7 +55,7 @@ Unfortunately, PCL 1.7x (the standard PCL included in current versions of ROS) d
 4. Download `pcl_ros` from here: https://github.com/ros-perception/perception_pcl
 5. Change the dependency from `PCL` to `PCL 1.8` in `find_package` of the `CMakeLists.txt` 
 6. Compile `pcl_ros` by using command `catkin_make  -DCATKIN_WHITELIST_PACKAGES="pcl_ros"`
-4. Rebuild Chisel by using comand `catkin_make -DCATKIN_WHITELIST_PACKAGES="chisel_ros"`
+4. Rebuild Chisel by using comand `catkin_make -DCATKIN_WHITELIST_PACKAGES=""`
 
 If PCL does not gain `c++11` support by default soon, we may just get rid of `c++11` in `OpenChisel` and use `boost` instead.
 
